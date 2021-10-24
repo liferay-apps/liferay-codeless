@@ -1,0 +1,11 @@
+Liferay.com
+https://www.liferay.com/
+
+Training
+https://university.liferay.com/
+
+Community
+https://liferay.dev/
+
+Help Center
+https://help.liferay.com/

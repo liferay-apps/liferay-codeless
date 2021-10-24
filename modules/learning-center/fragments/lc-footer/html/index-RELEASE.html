@@ -1,0 +1,29 @@
+<footer id="footer" role="contentinfo" class="container-fluid py-2">
+    <div class="row">
+        <div class="col-md-2">
+            <!-- Logo and Header-->
+            <a href="/web/learning-center">
+                <img alt="Liferay Logo" class="h-50"
+                     data-lfr-editable-type="image"
+                     data-lfr-editable-id="liferay-logo"
+                />
+                <h2 data-lfr-editable-type="rich-text"
+                    data-lfr-editable-id="liferay-header">
+                    Liferay
+                </h2>
+            </a>
+        </div>
+        <div class="col-md-8">
+            <!-- Navigation -->
+            [#if configuration.showNavigation]
+                <lfr-drop-zone></lfr-drop-zone>
+            [/#if]
+        </div>
+        <div class="col-md-2">
+            <!-- Social Links -->
+            [#if configuration.showSocialLinks]
+                <lfr-drop-zone></lfr-drop-zone>
+            [/#if]
+        </div>
+    </div>
+</footer>

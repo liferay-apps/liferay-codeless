@@ -1,0 +1,9 @@
+Learning Center
+
+    Getting Started
+        What's New in Liferay DXP 7.4
+        Creating Your First Site
+
+    Site Building
+        Adding a Site
+        Adding a Page to a Site
