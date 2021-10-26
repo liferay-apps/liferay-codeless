@@ -20,15 +20,15 @@
         <div class="px-2">
             <!-- Language Switch -->
             [#if configuration.showLanguage]
-            [@liferay_portlet["runtime"] defaultPreferences=languagePreferences
-            portletName="com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"/]
+                [@liferay_portlet["runtime"]
+                portletName="com_liferay_site_navigation_language_web_portlet_SiteNavigationLanguagePortlet"/]
             [/#if]
         </div>
         <div class="px-2">
             <!-- User Account -->
             [#if configuration.showPersonalBar]
-            [@liferay_portlet["runtime"]
-            portletName="com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet"/]
+                [@liferay_portlet["runtime"]
+                portletName="com_liferay_product_navigation_user_personal_bar_web_portlet_ProductNavigationUserPersonalBarPortlet"/]
             [/#if]
         </div>
     </div>
